@@ -30,6 +30,42 @@
     </nav>
   </div>
   <div class="content">
+    <header class="header">
+      <h1 class="header__title">Отжимания</h1>
+      <div class="progress">
+        <div class="progress__text">
+          <div class="progress__name">Прогресс</div>
+          <div class="progress__percent">80%</div>
+        </div>
+        <div class="progress__bar">
+          <div class="progress__cover-bar"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="">
+        <div class="habit">
+          <div class="habit__day">День 1</div>
+          <div class="habit__comment">Первый подход всегда даётся тяжело</div>
+          <button class="habit__delete">
+            <img src="./images/delete.svg" alt="Удалить день 1">
+          </button>
+        </div>
+      </div>
+      <div class="habit">
+        <div class="habit__day">День 2</div>
+        <form class="habit__form">
+          <input class="input input--icon" type="text" id="new-habit-day" placeholder="Комментарий" />
+          <label for="new-habit-day" class="input__icon">
+            <img src="./images/comment.svg" alt="Добавить комментарий.">
+          </label>
+        </form>
+        <button class="habit__add button">
+          Готово
+        </button>
+      </div>
+
+    </main>
 
   </div>
 </div>
