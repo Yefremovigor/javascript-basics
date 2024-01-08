@@ -1,5 +1,4 @@
-const getArrMidl = arr => arrMidl =
-    Math.trunc((arr.length - 1) / 2);
+const getArrMidl = arr => Math.trunc((arr.length - 1) / 2);
 const arrayFirstToLast = arr => arr.unshift(arr.pop());
 const shuffleArray = (arr = []) => {
     arr.reverse();
