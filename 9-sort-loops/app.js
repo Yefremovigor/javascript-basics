@@ -5,12 +5,12 @@
 
 const arr = [1, 40, -5, 10, 0];
 const arraySorting = (arr, fromHigherToLower = false) => {
-    for (const currentKey in arr) {
-        const value = arr[currentKey];
-        for (const key in arr) {
-            if (value > arr[key]) {
-                arr[currentKey] = arr[key];
-                arr[key] = value;
+    for (let i = 0; i < arr.length; i++) {
+        const value = arr[i];
+        for (let j = 0; j < arr.length; j++) {
+            if (value > arr[j]) {
+                arr[i] = arr[j];
+                arr[j] = value;
                 break;
             }
         }
